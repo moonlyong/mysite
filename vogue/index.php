@@ -33,9 +33,7 @@
   </head>
   <body>
     <!-- 1.상단영역 -->
-    <div id="top-area">
-      <header class="top-area ibx common-area"></header>
-    </div>
+    <?php include "inc/top-area.inc"?>
     <!-- 2.메인영역 -->
     <div id="main-area">
       <main class="main-area ibx">
