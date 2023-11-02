@@ -18,8 +18,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css"
     />
-    <!-- 메인 CSS -->
+    <!-- 카테고리 페이지 CSS -->
     <link rel="stylesheet" href="./css/category.css" />
+    <!-- 미디어쿼리 CSS -->
+    <link rel="stylesheet" href="./css/media.css" />
     <!-- 제이쿼리 라이브러리 -->
     <script src="./js/jquery-3.7.1.min.js"></script>
     <!-- 제이쿼리 UI -->
@@ -27,13 +29,12 @@
     <!-- 공통모듈 JS -->
     <script type="module" src="./js/common.js"></script>
     <script src="./js/linksys.js"></script>
+    <!-- 카테고리 페이지 JS -->
     <script type="module" src="./js/category.js"></script>
   </head>
   <body>
     <!-- 1.상단영역 -->
-    <div id="top-area">
-      <header class="top-area ibx common-area"></header>
-    </div>
+    <?php include "inc/top_area.inc" ?>
     <!-- 2.메인영역 -->
     <div id="main-area">
       <main class="main-area ibx">
@@ -73,9 +74,7 @@
       </main>
     </div>
     <!-- 3.하단영역 -->
-    <div id="footer-area">
-      <footer class="footer-area ibx common-area"></footer>
-    </div>
+    <?php include "inc/footer_area.inc" ?>
 
     <!-- 위로가기버튼 -->
     <a href="#" class="tbtn fi fi-angle-up">
