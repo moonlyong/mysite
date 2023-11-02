@@ -564,7 +564,8 @@ $('#email1,#email2')
                         /// 성공시 ///////
                         if(res === 'ok'){
                             alert('회원가입을 축하드립니다! 짝짝짝!');
-                            // location.replace('login.php');
+                            // 최초로그인 위해 로그인페이지로!
+                            location.replace('login.php');
                         } /// if : 성공시 ////
                         // 실패시 //////////
                         else{
